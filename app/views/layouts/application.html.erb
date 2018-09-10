@@ -6,7 +6,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
@@ -26,7 +26,7 @@
      <li><%= link_to 'Sign in', new_user_session_path %></li>
     </ul>
    <% end %>
-   
+
     <%= yield %>
   </body>
 </html>
